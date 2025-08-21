@@ -4,7 +4,7 @@
 This project brings a bit of Harry Potter magic into reality using **Python** and **OpenCV**.  
 With the help of Computer Vision, a cloak of a specific color becomes invisible in real-time video.
 
----
+
 
 ## 📌 Overview
 The idea is simple:
@@ -13,14 +13,13 @@ The idea is simple:
 3. Replace the detected cloak area with the background.
 4. The cloak appears **invisible** on camera. 👻
 
----
+
 
 ## 🛠 Tech Stack
 - Python 3
 - OpenCV
 - NumPy
 
----
 
 ## 🚀 How It Works
 - Convert live video frames to **HSV color space**.  
@@ -34,20 +33,20 @@ The idea is simple:
 ## 📂 Setup & Installation
 
 1. **Clone the Repository**
-   ```bash
+   
    git clone https://github.com/your-username/invisible-cloak.git
    cd invisible-cloak
-````
+
 
 2. **Install Dependencies**
 
-   ```bash
+   
    pip install opencv-python numpy
    ```
 
 3. **Run the Script**
 
-   ```bash
+   
    python invisible_cloak.py
    ```
 
@@ -60,10 +59,10 @@ To use another color (like blue or green), update the HSV values in the code.
 
 **Example (Blue Cloak):**
 
-```python
+
 lower_blue = np.array([94, 80, 2])
 upper_blue = np.array([126, 255, 255])
-```
+
 
 ---
 
