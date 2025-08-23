@@ -1,5 +1,5 @@
 
-### 🪄 Invisible Cloak using Python & OpenCV
+###  Invisible Cloak using Python & OpenCV
 
 This project brings a bit of Harry Potter magic into reality using **Python** and **OpenCV**.  
 With the help of Computer Vision, a cloak of a specific color becomes invisible in real-time video.
